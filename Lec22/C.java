@@ -1,8 +1,9 @@
 package Lec22;
 
-public class C {
+public class C extends P {
 	int d = 2;
 	int d2 = 20;
+	@Override
 	public void fun() {
 		System.out.println("FUN IN C");
 	}
