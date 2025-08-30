@@ -13,7 +13,7 @@ public class Sliding_Window_Maximum {
 
 	public static int[] Window_Maximum(int[] arr, int k) {
 		Deque<Integer> q = new LinkedList<>();
-		int[] ans = new int[arr.length - k];
+		int[] ans = new int[arr.length - k+1];
 		// 1. 1st step 1st ka window ka ans calculate krna hai
 		for (int i = 0; i < k; i++) {
 			while (!q.isEmpty() && arr[q.getLast()] < arr[i]) {
