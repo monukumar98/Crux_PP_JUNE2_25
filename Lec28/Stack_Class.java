@@ -25,6 +25,39 @@ public class Stack_Class implements StackI {
 //	}
 	public static void main(String[] args) {
 		Stack_Class st = new Stack_Class();
+		StackI s = new StackI() {
+
+			@Override
+			public void push(int item) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public int pop() {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+		};
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
